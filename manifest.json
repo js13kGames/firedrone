@@ -1,7 +1,7 @@
 {
-	"name": "fire in the bush 🌳",
+	"name": "🚁 firedrone 🔥",
 	"short_name": "FITB🌳",
-	"description": "fire in the bush 🌳 HTML5 Game built using craters.js which will work offline, has a splash screen add to home screen etc,.",
+	"description": "🚁 firedrone 🔥 HTML5 Game built using craters.js which will work offline, has a splash screen add to home screen etc,.",
 	"start_url": "./",
 	"display": "standalone",
 	"orientation": "portrait",
