@@ -1,0 +1,208 @@
+
+Compilation  starting…
+
+
+webpack is watching the files…
+
+
+Compilation  finished
+
+Hash: c193c36cab571cbce591
+Version: webpack 4.38.0
+Time: 11725ms
+Built at: 08/16/2019 13:17:22
+  Asset      Size  Chunks             Chunk Names
+main.js  18.1 KiB       0  [emitted]  main
+Entrypoint main = main.js
+ [0] ./game.js 2.61 KiB {0} [built]
+ [1] ./app/core/game.loop.js 3.19 KiB {0} [built]
+ [2] ./app/core/game.update.js 718 bytes {0} [built]
+ [3] ./app/core/game.render.js 1.15 KiB {0} [built]
+ [4] ./app/entities/player.js 3.52 KiB {0} [built]
+ [5] ./app/plugins/utils.keysDown.js 1.62 KiB {0} [built]
+ [6] ./app/plugins/utils.math.js 344 bytes {0} [built]
+ [7] ./app/plugins/utils.system.js 697 bytes {0} [built]
+ [8] ./app/plugins/utils.sound.js 1.29 KiB {0} [built]
+ [9] ./app/plugins/utils.gamePad.js 2.51 KiB {0} [built]
+[10] ./app/entities/particle.js 2.6 KiB {0} [built]
+[11] ./app/entities/water.js 1.16 KiB {0} [built]
+[12] ./app/plugins/utils.canvas.js 1.58 KiB {0} [built]
+[13] ./app/plugins/utils.virtualJoystick.js 13.2 KiB {0} [built]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+Compilation  starting…
+
+
+webpack is watching the files…
+
+
+Compilation  finished
+
+Hash: 4353a692a10ca0f4f195
+Version: webpack 4.38.0
+Time: 20009ms
+Built at: 08/17/2019 09:14:01
+ 1 asset
+Entrypoint main = main.js
+[0] ./game.js 2.61 KiB {0} [built]
+[1] ./app/core/game.loop.js 3.19 KiB {0} [built]
+[2] ./app/core/game.update.js 718 bytes {0} [built]
+[3] ./app/core/game.render.js 1.15 KiB {0} [built]
+[4] ./app/entities/player.js 548 bytes {0} [built] [failed] [1 error]
+[5] ./app/entities/particle.js 2.6 KiB {0} [built]
+[6] ./app/entities/water.js 1.16 KiB {0} [built]
+[7] ./app/plugins/utils.canvas.js 1.58 KiB {0} [built]
+[8] ./app/plugins/utils.virtualJoystick.js 13.2 KiB {0} [built]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+ERROR in ./app/entities/player.js 123:84
+Module parse failed: Identifier directly after number (123:84)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|         // Bind the player to the boundary
+|         player.state.position.x = player.state.position.x.boundary(0, (scope.constants.width - width));
+>         player.state.position.y = player.state.position.y + player.state.radius * 2.boundary(0, (scope.constants.height - height));
+|     };
+| 
+ @ ./game.js 6:13-48
+
+Compilation  starting…
+
+
+Compilation  finished
+
+Hash: f5c30914216b0b532b77
+Version: webpack 4.38.0
+Time: 11476ms
+Built at: 08/17/2019 11:10:48
+  Asset      Size  Chunks             Chunk Names
+main.js  19.1 KiB       0  [emitted]  main
+Entrypoint main = main.js
+ [0] ./game.js 2.61 KiB {0} [built]
+ [1] ./app/core/game.loop.js 3.19 KiB {0} [built]
+ [2] ./app/core/game.update.js 718 bytes {0} [built]
+ [3] ./app/core/game.render.js 1.15 KiB {0} [built]
+ [4] ./app/entities/player.js 4.98 KiB {0} [built]
+ [5] ./app/plugins/utils.keysDown.js 1.62 KiB {0} [built]
+ [6] ./app/plugins/utils.math.js 344 bytes {0} [built]
+ [7] ./app/plugins/utils.system.js 697 bytes {0} [built]
+ [8] ./app/plugins/utils.sound.js 1.48 KiB {0} [built]
+ [9] ./app/plugins/utils.gamePad.js 2.51 KiB {0} [built]
+[10] ./app/entities/particle.js 2.6 KiB {0} [built]
+[11] ./app/entities/water.js 1.16 KiB {0} [built]
+[12] ./app/plugins/utils.canvas.js 1.58 KiB {0} [built]
+[13] ./app/plugins/utils.virtualJoystick.js 13.2 KiB {0} [built]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+Compilation  starting…
+
+
+Compilation  finished
+
+Hash: 81942d089c54ec860840
+Version: webpack 4.38.0
+Time: 9570ms
+Built at: 08/17/2019 11:12:08
+  Asset      Size  Chunks             Chunk Names
+main.js  19.1 KiB       0  [emitted]  main
+Entrypoint main = main.js
+ [0] ./game.js 2.61 KiB {0} [built]
+ [1] ./app/core/game.loop.js 3.19 KiB {0} [built]
+ [2] ./app/core/game.update.js 718 bytes {0} [built]
+ [3] ./app/core/game.render.js 1.15 KiB {0} [built]
+ [4] ./app/entities/player.js 4.98 KiB {0} [built]
+ [5] ./app/plugins/utils.keysDown.js 1.62 KiB {0} [built]
+ [6] ./app/plugins/utils.math.js 344 bytes {0} [built]
+ [7] ./app/plugins/utils.system.js 697 bytes {0} [built]
+ [8] ./app/plugins/utils.sound.js 1.46 KiB {0} [built]
+ [9] ./app/plugins/utils.gamePad.js 2.51 KiB {0} [built]
+[10] ./app/entities/particle.js 2.6 KiB {0} [built]
+[11] ./app/entities/water.js 1.16 KiB {0} [built]
+[12] ./app/plugins/utils.canvas.js 1.58 KiB {0} [built]
+[13] ./app/plugins/utils.virtualJoystick.js 13.2 KiB {0} [built]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+Compilation  starting…
+
+
+Compilation  finished
+
+Hash: 968bbd14a6fa1441bc71
+Version: webpack 4.38.0
+Time: 10303ms
+Built at: 08/17/2019 12:37:01
+  Asset      Size  Chunks             Chunk Names
+main.js  19.2 KiB       0  [emitted]  main
+Entrypoint main = main.js
+ [0] ./game.js 2.61 KiB {0} [built]
+ [1] ./app/core/game.loop.js 3.19 KiB {0} [built]
+ [2] ./app/core/game.update.js 718 bytes {0} [built]
+ [3] ./app/core/game.render.js 1.15 KiB {0} [built]
+ [4] ./app/entities/player.js 4.98 KiB {0} [built]
+ [5] ./app/plugins/utils.keysDown.js 1.62 KiB {0} [built]
+ [6] ./app/plugins/utils.math.js 344 bytes {0} [built]
+ [7] ./app/plugins/utils.system.js 697 bytes {0} [built]
+ [8] ./app/plugins/utils.sound.js 1.57 KiB {0} [built]
+ [9] ./app/plugins/utils.gamePad.js 2.51 KiB {0} [built]
+[10] ./app/entities/particle.js 2.6 KiB {0} [built]
+[11] ./app/entities/water.js 1.16 KiB {0} [built]
+[12] ./app/plugins/utils.canvas.js 1.58 KiB {0} [built]
+[13] ./app/plugins/utils.virtualJoystick.js 13.2 KiB {0} [built]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+Compilation  starting…
+
+
+Compilation  finished
+
+
+Compilation  starting…
+
+
+Compilation  finished
+
+
+Compilation  starting…
+
+
+Compilation  finished
+
+Hash: 81942d089c54ec860840
+Version: webpack 4.38.0
+Time: 1520ms
+Built at: 08/17/2019 13:25:55
+  Asset      Size  Chunks             Chunk Names
+main.js  19.1 KiB       0  [emitted]  main
+Entrypoint main = main.js
+ [0] ./game.js 2.61 KiB {0} [built]
+ [1] ./app/core/game.loop.js 3.19 KiB {0} [built]
+ [2] ./app/core/game.update.js 718 bytes {0} [built]
+ [3] ./app/core/game.render.js 1.15 KiB {0} [built]
+ [4] ./app/entities/player.js 4.98 KiB {0} [built]
+ [5] ./app/plugins/utils.keysDown.js 1.62 KiB {0} [built]
+ [6] ./app/plugins/utils.math.js 344 bytes {0} [built]
+ [7] ./app/plugins/utils.system.js 697 bytes {0} [built]
+ [8] ./app/plugins/utils.sound.js 1.46 KiB {0} [built]
+ [9] ./app/plugins/utils.gamePad.js 2.51 KiB {0} [built]
+[10] ./app/entities/particle.js 2.6 KiB {0} [built]
+[11] ./app/entities/water.js 1.16 KiB {0} [built]
+[12] ./app/plugins/utils.canvas.js 1.58 KiB {0} [built]
+[13] ./app/plugins/utils.virtualJoystick.js 13.2 KiB {0} [built]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
