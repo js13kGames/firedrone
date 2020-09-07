@@ -162,10 +162,10 @@ var powerups = function(that, opt){
 		if(gamePad.explode == true && that.state.entities['drone'].state.inventory >= 50){
 			for (var entity in that.state.entities) {
 		                // Fire off each active entities `render` method
-		                if(that.state.entities[entity].type == 'mushroom' && that.state.entities[entity].state.radius < 50){ 
-		                that.state.entities['drone'].state.position = that.state.entities[entity].state.position;
+		                that.state.entities['drone'].state.position.x = that.state.entities[entity].state.position.x;
+		                that.state.entities['drone'].state.position.x = that.state.entities[entity].state.position.x;
+		                // make mushrooms aware of the position
 		                that.state.entities[entity].update();
-		                }
 		            }
 			that.state.entities['drone'].state.inventory -=50;
 		}
